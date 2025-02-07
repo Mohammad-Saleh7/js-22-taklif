@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #34414c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "EB Garamond", serif;
+}
+.container{
+    background: #5C7285;
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #52e094;
+    font-family: "Ubuntu", serif;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: #f2f2f2;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Ubuntu", serif;
+    font-size: larger;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+.left{
+    border: 0.1px solid #f2f2f2;
+    width: 200px;
+    /* height: 0; */
+}
+.right{
+    border: 0.1px solid #f2f2f2;
+    width: 200px;
+    /* height: 0; */
+}
+.icon{
+    font-size: 30px;
+    color: #f2f2f2;
+}
+.dice-container{
+    position: absolute;
+    left: 267px;
+    bottom: -30px;
+}
+.dice-container i{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #52e094;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+}
+.dice:hover{
+    box-shadow: #36ac6d 0px 0px 70px;
+}
